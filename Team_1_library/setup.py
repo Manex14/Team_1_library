@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
 name="Team_1_library",
-version="0.1.0",
+version="1.1.0",
 description="Data prerpocess library with missing value imputation and outlier correction functions.",
 long_description=open("README.md").read(),
 long_description_content_type="text/markdown",
@@ -15,7 +15,7 @@ install_requires=[
         "pandas",
         "scipy",
         "numpy",
-        "scikit-learn"
+        "scikit-learn",
         "fuzzywuzzy"
     ],
 classifiers=[
